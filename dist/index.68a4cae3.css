@@ -27,4 +27,10 @@ button {
   background: linear-gradient(#31d35c, #2bb7da, #2d314d);
   border-radius: 50px;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 /*# sourceMappingURL=index.68a4cae3.css.map */
