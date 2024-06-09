@@ -1,0 +1,35 @@
+header {
+  .bg-white {
+    background-color: $Blanc;
+    padding: 15px 0;
+  }
+  nav {
+    @include Margin;
+    background-color: $Blanc;
+    @include Spacebetween;
+    gap: 15px;
+    img {
+      height: 30px;
+      width: 150px;
+    }
+    ul {
+      @include Spacebetween;
+      width: 500px;
+      // width: 60ùM;
+
+      li {
+        position: relative;
+      }
+    }
+
+    ul li a:hover::after {
+      content: "";
+      position: absolute;
+      top: 25px;
+      left: 0;
+      background-color: aqua;
+      height: 3px;
+      width: 100%;
+    }
+  }
+}

@@ -25,25 +25,44 @@ $Blanc: hsl(0, 0%, 100%);
   justify-content: space-between;
   align-items: center;
 }
+@mixin Margin {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
 a {
   text-decoration: none;
+  color: rgb(180, 173, 173);
 }
 li {
   list-style: none;
 }
 body {
   font-family: $font1;
-  background-color: $BleuClair;
+  background-color: brown;
 }
 button {
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
   border-radius: 50px;
-  background: linear-gradient($Vert, $BleuClair, $BleuFonce);
+  padding: 13px 25px;
+  color: $Blanc;
+  background: rgb(49, 207, 110);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 207, 110, 1) 22%,
+    rgba(48, 199, 146, 1) 31%,
+    rgba(43, 185, 207, 1) 82%
+  );
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+button:hover {
+  filter: brightness(1.2);
 }
+
 // main {
 //   background-color: gray;
 //   padding: 50px;
