@@ -1,4 +1,5 @@
 header {
+  background: $UnpeuGris;
   position: relative;
   .bg-white {
     background-color: $Blanc;
@@ -49,7 +50,7 @@ header {
     margin: 0 auto;
     padding: 0 2.5%;
     @include Spacebetween;
-    height: 80vh;
+    height: 78vh;
     // height: 92vh;
     .Vitrine1 {
       width: 50%;

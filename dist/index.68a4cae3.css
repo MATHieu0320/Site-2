@@ -20,7 +20,6 @@ li {
 }
 
 body {
-  background: #fafafa;
   font-family: PublicSans, serif;
 }
 
@@ -54,6 +53,7 @@ button:hover {
 }
 
 header {
+  background: #fafafa;
   position: relative;
 }
 
@@ -113,7 +113,7 @@ header .Vitrine {
   justify-content: space-between;
   align-items: center;
   max-width: 1500px;
-  height: 80vh;
+  height: 78vh;
   margin: 0 auto;
   padding: 0 2.5%;
   display: flex;
@@ -145,5 +145,42 @@ header .Vitrine .Vitrine2 {
 header .Vitrine .Absolute1, header .Vitrine .Absolute1 img {
   width: 100%;
   height: 100%;
+}
+
+main {
+  background-color: #f3f4f6;
+  padding: 60px 0;
+}
+
+main .main-2 {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+main .main-2 h2 {
+  font-size: 2.3rem;
+  font-weight: 400;
+}
+
+main .main-2 p {
+  margin: 20px 0 50px;
+  line-height: 25px;
+}
+
+main .main-2 .main-container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+main .main-2 .main-container h3 {
+  margin: 35px 0 0;
+}
+
+main .main-2 .main-container p {
+  text-wrap: balance;
+  width: 100%;
 }
 /*# sourceMappingURL=index.68a4cae3.css.map */
