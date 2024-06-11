@@ -62,10 +62,11 @@ button {
 button:hover {
   filter: brightness(1.2);
 }
+
 #Absolute2 {
   background: url(../../images/image-mockups.png) center/cover;
   background-size: 100% 100%;
-
+  background-repeat: no-repeat;
   height: 100%;
   width: 50%;
   max-width: 800px;
@@ -73,8 +74,27 @@ button:hover {
   left: 50%;
   position: absolute;
   z-index: 2;
+  @media screen and (max-width: 980px) {
+    width: 55%;
+    left: 43%;
+  }
+  @media screen and (max-width: 750px) {
+    left: 50%;
+    top: 24%;
+    width: 73%;
+    min-width: 450px;
+    transform: translate(-50%, -50%);
+  }
 }
 
+@media screen and (max-width: 750px) {
+  .Absolute1 img {
+    display: none;
+  }
+  .Absolute1 {
+    background: url(../../images/bg-intro-mobile.svg) center/cover;
+  }
+}
 // main {
 //   background-color: gray;
 //   padding: 50px;

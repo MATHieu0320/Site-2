@@ -2,6 +2,8 @@ header {
   background: $UnpeuGris;
   position: relative;
   .bg-white {
+    position: relative;
+    z-index: 3;
     background-color: $Blanc;
     padding: 15px 0;
     // height: 10vh;
@@ -68,10 +70,22 @@ header {
     p {
       line-height: 25px;
       margin: 20px 0;
+      @media screen and (max-width: 980px) {
+        br {
+          display: none;
+        }
+        text-wrap: balance;
+      }
     }
     .Vitrine2 {
       width: 70%;
       height: 100%;
+      @media screen and (max-width: 980px) {
+        width: 79%;
+      }
+      @media screen and (max-width: 980px) {
+        width: 100%;
+      }
     }
     .Absolute1 {
       width: 100%;
@@ -81,5 +95,12 @@ header {
       width: 100%;
       height: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  header .Vitrine {
+    flex-direction: column-reverse;
+    padding: 0;
   }
 }
