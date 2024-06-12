@@ -63,6 +63,7 @@ button:hover {
   #Absolute2 {
     width: 73%;
     min-width: 450px;
+    height: 667px;
     top: 24%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -153,10 +154,8 @@ header .Vitrine .Vitrine1 {
 }
 
 header .Vitrine h1 {
-  align-items: center;
   font-size: calc(2.5vw + 1.2rem);
   font-weight: 500;
-  display: flex;
 }
 
 header .Vitrine p {
@@ -190,10 +189,38 @@ header .Vitrine .Absolute1, header .Vitrine .Absolute1 img {
   height: 100%;
 }
 
+@media screen and (width <= 980px) {
+  header p br {
+    display: none;
+  }
+}
+
 @media screen and (width <= 750px) {
+  header nav ul, header nav button {
+    display: none;
+  }
+
+  #hamburger {
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    display: block !important;
+  }
+
   header .Vitrine {
     flex-direction: column-reverse;
+    height: 700px;
     padding: 0;
+  }
+
+  header .Vitrine .Vitrine1 {
+    text-align: center;
+    width: 100%;
+    padding: 15px 0 5px;
+  }
+
+  header button {
+    margin: 0 auto;
   }
 }
 
