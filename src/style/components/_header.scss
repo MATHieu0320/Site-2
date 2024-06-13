@@ -61,7 +61,7 @@ header {
       margin: 0 auto;
     }
     h1 {
-      font-size: calc(2.5vw + 1.2rem);
+      font-size: calc(2.5vw + 1rem);
       font-weight: 500;
     }
     p {
@@ -80,7 +80,7 @@ header {
       @media screen and (max-width: 980px) {
         width: 79%;
       }
-      @media screen and (max-width: 980px) {
+      @media screen and (max-width: 750px) {
         width: 100%;
       }
     }
@@ -116,10 +116,11 @@ header {
     height: 700px;
   }
   header .Vitrine .Vitrine1 {
-    padding: 15px 0 5px 0;
+    padding: 15px 0 20px 0;
     width: 100%;
     text-align: center;
   }
+
   header button {
     margin: 0 auto;
   }
