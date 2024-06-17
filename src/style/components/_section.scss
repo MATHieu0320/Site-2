@@ -11,7 +11,8 @@ section {
   .section-container {
     @include Margin;
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     gap: 20px;
     margin-bottom: 15px;
   }

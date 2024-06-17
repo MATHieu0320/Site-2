@@ -291,7 +291,8 @@ section h4 {
 }
 
 section .section-container {
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
   max-width: 1500px;
   margin: 0 auto 15px;
@@ -325,5 +326,26 @@ section h5 {
 
 section p {
   text-wrap: balance;
+}
+
+footer {
+  background-color: #2d314d;
+}
+
+footer .footer-main {
+  grid-template-rows: 1fr;
+  grid-template-columns: 20% 20% 20% 40%;
+  gap: 15px;
+  display: grid;
+}
+
+footer .footer-container {
+  flex-direction: column;
+  display: grid;
+}
+
+footer #logo2 {
+  background-color: #f0f8ff;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=index.68a4cae3.css.map */

@@ -1,0 +1,17 @@
+footer {
+  background-color: $BleuFonce;
+  .footer-main {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 40%;
+    grid-template-rows: 1fr;
+    gap: 15px;
+  }
+  .footer-container {
+    display: grid;
+    flex-direction: column;
+  }
+  #logo2 {
+    background-color: aliceblue;
+    margin-bottom: 50px;
+  }
+}

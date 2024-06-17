@@ -35,7 +35,12 @@ button {
   padding: 13px 25px;
   color: hsl(0, 0%, 100%);
   background: rgb(49, 207, 110);
-  background: linear-gradient(90deg, rgb(49, 207, 110) 22%, rgb(48, 199, 146) 31%, rgb(43, 185, 207) 82%);
+  background: linear-gradient(
+    90deg,
+    rgb(49, 207, 110) 22%,
+    rgb(48, 199, 146) 31%,
+    rgb(43, 185, 207) 82%
+  );
 }
 
 button:hover {
@@ -77,4 +82,4 @@ header nav ul li a::after:hover {
   background-color: aqua;
   height: 3px;
   width: 100%;
-}/*# sourceMappingURL=index.css.map */
+} /*# sourceMappingURL=index.css.map */
